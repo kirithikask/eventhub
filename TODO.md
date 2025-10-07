@@ -1,0 +1,11 @@
+- [x] Change server port to 5001 in backend/server.js
+- [x] Update User model: remove username, add role field
+- [x] Update auth.js: import bcrypt and jwt, update register to hash password and save role, update login to find by email, compare hash, generate JWT token
+- [x] Change backend port from 5000 to 5001 in backend/server.js
+- [x] Change frontend port to 3001 in frontend/package.json start script
+- [x] Update API URLs from localhost:5000 to localhost:5001 in StudentDashboard.js
+- [x] Update API URLs in StaffDashboard.js
+- [x] Update API URLs in Register.js
+- [x] Update API URLs in Login.js
+- [x] Update API URLs in AdminDashboard.js
+- [x] Update TODO.md entry to reflect 5001

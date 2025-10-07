@@ -1,0 +1,5 @@
+- [x] Update backend/routes/auth.js register route: add check for existing user before saving, send error with 'message' key instead of 'error'
+- [x] Update backend/routes/auth.js login route: send error with 'message' key for invalid credentials
+- [ ] Test registration with new email
+- [ ] Test registration with existing email
+- [ ] Test login with wrong credentials
